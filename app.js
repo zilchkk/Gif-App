@@ -8,7 +8,7 @@ let generateGif = () => {
 
   let q = document.getElementById("search-box").value;
 
-  let gifcount = 10;
+  let gifcount = 25;
 
   let finalURl = `https://api.giphy.com/v1/gifs/search?api_key=${apikey}&q=${q}&limit=${gifcount}&offset=0&rating=g&lang=en`;
 
